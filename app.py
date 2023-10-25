@@ -3,7 +3,7 @@ import cairosvg
 import os
 import io
 
-app = Flask(__name)
+app = Flask(__name__)
 
 @app.route('/convert', methods=['POST'])
 def convert_svg_to_png():
